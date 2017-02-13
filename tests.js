@@ -21,7 +21,8 @@ describe('LED Application', () => {
                     return;
                 }
 
-                expect(value).toEqual(1)
+                expect(value).toEqual(1);
+                done();
             })
         });
     });
@@ -39,7 +40,8 @@ describe('LED Application', () => {
                     return;
                 }
 
-                expect(value).toEqual(0)
+                expect(value).toEqual(0);
+                done();
             })
         });
     });

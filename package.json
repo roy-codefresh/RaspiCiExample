@@ -16,6 +16,6 @@
   "devDependencies": {
     "expect": "^1.20.2",
     "mocha": "^3.2.0",
-    "request": "^2.79.0"
+    "request-json": "^0.6.1"
   }
 }

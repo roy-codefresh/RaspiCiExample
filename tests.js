@@ -17,7 +17,7 @@ describe('LED Application', () => {
                 return;
             }
 
-            request.get('http://gpio-simulator:4500/out/2', { json: true }, (err, value) => {
+            request.get('http://gpio-simulator:4500/out/2', { json: true }, (err, res, value) => {
                 if (err) {
                     done(err);
                     return;
@@ -40,7 +40,7 @@ describe('LED Application', () => {
                 return;
             }
 
-            request.get('http://gpio-simulator:4500/out/2', { json: true }, (err, value) => {
+            request.get('http://gpio-simulator:4500/out/2', { json: true }, (err, res, value) => {
                 if (err) {
                     done(err);
                     return;
